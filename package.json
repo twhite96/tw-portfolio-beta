@@ -1,0 +1,51 @@
+{
+  "name": "grit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:ci": "jest --ci --coverage",
+    "postinstall": "husky install"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "1.0.13",
+    "@chakra-ui/react": "1.6.3",
+    "@emotion/react": "11.4.0",
+    "@emotion/styled": "11.3.0",
+    "@testing-library/dom": "7.31.0",
+    "@testing-library/jest-dom": "5.12.0",
+    "@testing-library/react": "11.2.7",
+    "@testing-library/user-event": "13.1.9",
+    "@types/jest": "26.0.23",
+    "@types/node": "15.6.1",
+    "@types/react": "17.0.8",
+    "@typescript-eslint/eslint-plugin": "4.25.0",
+    "@typescript-eslint/parser": "4.25.0",
+    "babel-jest": "27.0.2",
+    "eslint": "7.27.0",
+    "eslint-plugin-react": "7.24.0",
+    "framer-motion": "4.1.17",
+    "husky": "6.0.0",
+    "jest": "27.0.3",
+    "jest-dom": "4.0.0",
+    "next": "10.2.3",
+    "prettier": "2.3.0",
+    "pretty-quick": "3.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "typescript": "4.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "volta": {
+    "node": "14.15.3",
+    "yarn": "1.22.10"
+  }
+}
