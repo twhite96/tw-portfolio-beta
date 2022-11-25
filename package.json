@@ -11,11 +11,6 @@
     "test:ci": "jest --ci --coverage",
     "postinstall": "husky install"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
-  },
   "volta": {
     "node": "18.12.1",
     "yarn": "1.22.10"
