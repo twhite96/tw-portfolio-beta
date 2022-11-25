@@ -9,7 +9,6 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:ci": "jest --ci --coverage",
-    "postinstall": "husky install"
   },
   "volta": {
     "node": "18.12.1",
