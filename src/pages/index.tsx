@@ -13,21 +13,29 @@ import {
   Link,
   Switch,
   Avatar,
+  Spacer,
   Flex,
   Badge,
   Box,
+  useColorMode,
+  useColorModeValue,
   Divider,
 } from '@chakra-ui/react'
 
 function Home() {
+  const { toggleColorMode } = useColorMode()
+  const bg = useColorModeValue('white.500', '#191b23')
+  const color = useColorModeValue('gray.800', 'white')
   return (
-    <Container>
+    <Container color={color}>
       <VStack my={24} spacing={12}>
-        <Switch size="md" colorScheme="purple" />
-        <Heading as="h1" fontSize="5xl" textAlign="center">
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
-          Tiffany White
-        </Heading>
+        <Flex minWidth='max-content' alignItems='center'>
+            <Heading>
+            <Text>Tiffany White <span> <Switch size="md" colorScheme="purple" onChange={toggleColorMode}
+            /></span></Text>
+            </Heading>
+        </Flex>
+        <Spacer />
         <Text fontSize="3xl" textAlign="center">
           This is my personal site.
         </Text>

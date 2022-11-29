@@ -4,6 +4,7 @@ specifiers:
   '@babel/core': ^7.20.2
   '@chakra-ui/icons': ^2.0.12
   '@chakra-ui/react': ^2.4.1
+  '@emotion/babel-plugin': ^11.10.5
   '@emotion/react': ^11.10.5
   '@emotion/styled': ^11.10.5
   '@testing-library/dom': ^8.19.0
@@ -27,6 +28,7 @@ dependencies:
   '@babel/core': 7.20.2
   '@chakra-ui/icons': 2.0.12_5rblpff3ywqi5dqv4dv3oiensi
   '@chakra-ui/react': 2.4.1_ivh35ykejip4mpx7fs7q5wwdjy
+  '@emotion/babel-plugin': 11.10.5_@babel+core@7.20.2
   '@emotion/react': 11.10.5_cuziicjcvwawlf5iuhzacuhqcy
   '@emotion/styled': 11.10.5_hmjty4frusbltjhl3xd7udcm2y
   '@testing-library/dom': 8.19.0
