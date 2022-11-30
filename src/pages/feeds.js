@@ -1,24 +1,24 @@
-import { FEED } from "lib/rss";
-// import Link from "next/link";
-import {
-  Container,
-  Heading,
-  VStack,
-  Stack,
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Text,
-  OrderedList,
-  ListItem,
-  Link,
-  Flex,
-  Badge,
-  Box,
-  Divider,
-  Button
-} from '@chakra-ui/react'
+import { FEED } from "src/lib/rss";
+import Link from "next/link";
+// import {
+//   Container,
+//   Heading,
+//   VStack,
+//   Stack,
+//   Card,
+//   CardHeader,
+//   CardBody,
+//   CardFooter,
+//   Text,
+//   OrderedList,
+//   ListItem,
+//   Link,
+//   Flex,
+//   Badge,
+//   Box,
+//   Divider,
+//   Button
+// } from '@chakra-ui/react'
 
 export default function Feed() {
   return (

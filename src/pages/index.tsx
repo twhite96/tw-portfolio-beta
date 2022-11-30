@@ -7,11 +7,13 @@ import {
   CardHeader,
   CardBody,
   CardFooter,
+  SimpleGrid,
+  Button,
   Text,
   OrderedList,
   ListItem,
   Link,
-  Switch,
+  Image,
   Avatar,
   Spacer,
   Flex,
@@ -21,19 +23,38 @@ import {
   useColorModeValue,
   Divider,
 } from '@chakra-ui/react'
+// import { FEED } from '../lib/rss'
+
+import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
 function Home() {
-  const { toggleColorMode } = useColorMode()
+  const { colorMode, toggleColorMode } = useColorMode()
   const bg = useColorModeValue('white.500', '#191b23')
   const color = useColorModeValue('gray.800', 'white')
   return (
-    <Container color={color}>
+    <Container bg='white.800' color={color}>
       <VStack my={24} spacing={12}>
-        <Flex minWidth='max-content' alignItems='center'>
+        <Flex minWidth='max-content' alignItems='center' gap='4'>
+          <Box>
             <Heading>
-            <Text>Tiffany White <span> <Switch size="md" colorScheme="purple" onChange={toggleColorMode}
-            /></span></Text>
+              <Text>Tiffany White</Text>
             </Heading>
+          </Box>
+          <Box>
+            <Button
+                color='gray.500' size='l'
+                borderRadius='full'
+                p={2}
+                transition='all 0.2s cubic-bezier(.08,.52,.52,1)'
+                onClick={() => toggleColorMode()}>
+              {colorMode === "light" ? (
+                  <SunIcon color='orange' />
+              ) : (
+                  <MoonIcon color='blue.700' />
+              )}
+            </Button>
+          </Box>
+
         </Flex>
         <Spacer />
         <Text fontSize="3xl" textAlign="center">
@@ -46,71 +67,79 @@ function Home() {
           <Heading as="h2" fontSize="2xl" mb={4}>
             Projects
           </Heading>
-          <OrderedList>
-            <ListItem>
-              Some of my best stuff 💪🏽
-              <Link
-                href="https://github.com/kahlil/dark/generate"
-                isExternal
-                textDecoration="underline"
-              >
-                github.com/kahlil/dark/generate
-              </Link>
-            </ListItem>
-            <ListItem>
-              Hit the ground running with{' '}
-              <Link
-                href="https://nextjs.org"
-                isExternal
-                textDecoration="underline"
-              >
-                Next.js
-              </Link>
-              ,{' '}
-              <Link
-                href="https://www.typescriptlang.org/"
-                isExternal
-                textDecoration="underline"
-              >
-                TypeScript
-              </Link>{' '}
-              &amp;{' '}
-              <Link
-                href="https://chakra-ui.com"
-                isExternal
-                textDecoration="underline"
-              >
-                Chakra UI
-              </Link>{' '}
-              with the dark theme as the default
-            </ListItem>
-          </OrderedList>
+          <Text>
+            Some of my best stuff 💪🏽
+          </Text>
+          <SimpleGrid spacing={6} templateColumns='repeat(auto-fill, minmax(240px, 1fr))'>
+            <Card boxShadow='xl'>
+              <CardHeader>
+                <Heading size='md'> Ruby Static Site Generator</Heading>
+              </CardHeader>
+              <CardBody>
+                <Image
+                    src='https://res.cloudinary.com/twhiteblog/image/upload/v1667626387/ruby-2_gn6h07.jpg'
+                    borderRadius='sm' />
+                <Text>A static site generator built with Ruby and Mustache.</Text>
+              </CardBody>
+              <CardFooter>
+                <Button>
+                  <Link
+                    href="https://github.com/twhite96/static-gen-ruby"
+                    isExternal
+                  >
+                    View on GitHub
+                  </Link>
+                </Button>
+              </CardFooter>
+            </Card>
+            <Card boxShadow='xl'>
+              <CardHeader>
+                <Heading size='md'>Bumped Landing Page v1</Heading>
+              </CardHeader>
+              <CardBody>
+                <Image
+                  src='https://res.cloudinary.com/twhiteblog/image/upload/v1667543019/bumped-v1_shoafo.png'
+                  borderRadius='sm' />
+                <Text>A static site generator built with Ruby and Mustache.</Text>
+              </CardBody>
+              <CardFooter>
+                <Button>
+                  <Link
+                    href="https://github.com/twhite96/static-gen-ruby"
+                    isExternal
+                  >
+                    View on GitHub
+                  </Link>
+                </Button>
+              </CardFooter>
+            </Card>
+          </SimpleGrid>
+
         </Container>
 
         <Divider />
 
+
+
         <Container>
             <Flex pb={2}>
-              <Avatar src="https://bit.ly/sage-adebayo" />
+              <Avatar src="https://res.cloudinary.com/twhiteblog/image/upload/v1623806306/authorimage_o7mj3e.webp" />
               <Box ml="3">
                 <Text fontWeight="bold">
-                  Segun Adebayo
-                  <Badge ml="1" colorScheme="green">
-                    New
-                  </Badge>
+                  Tiffany White
                 </Text>
-                <Text fontSize="sm">UI Engineer, creator of Chakra UI</Text>
+                <Text fontSize="sm">Frontend Engineer</Text>
               </Box>
             </Flex>
 
             <Text py={2}>
-              See the code for the examples above in the{' '}
+              See the code for this site {' '}
               <Link
-                href="https://github.com/kahlil/dark/blob/main/src/pages/index.tsx"
+                href="#"
                 isExternal
                 textDecoration="underline"
               >
-                source code
+                on GitHub
               </Link>
               .
             </Text>

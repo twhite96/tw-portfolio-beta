@@ -11,7 +11,5 @@ export const FEED = [
 export async function getFeed(feedUrl) {
   let parser = new Parser();
 
-  let feed = await parser.parseURL(feedUrl);
-
-  return feed;
+  return await parser.parseURL(feedUrl);
 }

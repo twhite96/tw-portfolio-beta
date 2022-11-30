@@ -1,4 +1,4 @@
-import { FEED, getFeed } from "lib/rss";
+import { FEED, getFeed } from "src/lib/rss";
 import { format } from "date-fns";
 
 export default function Feed({ feed, items }) {

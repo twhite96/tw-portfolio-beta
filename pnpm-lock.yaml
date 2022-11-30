@@ -7,6 +7,8 @@ specifiers:
   '@emotion/babel-plugin': ^11.10.5
   '@emotion/react': ^11.10.5
   '@emotion/styled': ^11.10.5
+  '@fontsource/montserrat': ^4.5.13
+  '@fontsource/roboto-mono': ^4.5.8
   '@testing-library/dom': ^8.19.0
   '@testing-library/jest-dom': ^5.16.5
   '@testing-library/react': ^13.4.0
@@ -31,6 +33,8 @@ dependencies:
   '@emotion/babel-plugin': 11.10.5_@babel+core@7.20.2
   '@emotion/react': 11.10.5_cuziicjcvwawlf5iuhzacuhqcy
   '@emotion/styled': 11.10.5_hmjty4frusbltjhl3xd7udcm2y
+  '@fontsource/montserrat': 4.5.13
+  '@fontsource/roboto-mono': 4.5.8
   '@testing-library/dom': 8.19.0
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
@@ -1578,6 +1582,14 @@ packages:
 
   /@emotion/weak-memoize/0.3.0:
     resolution: {integrity: sha512-AHPmaAx+RYfZz0eYu6Gviiagpmiyw98ySSlQvCUhVGDRtDFe4DBS0x1bSjdF3gqUDYOczB+yYvBTtEylYSdRhg==}
+    dev: false
+
+  /@fontsource/montserrat/4.5.13:
+    resolution: {integrity: sha512-/XlcNsMFjdWX4Away8Ax/4NgND8Ckk9gVDwgz1sfxF6h+gFHChLOV0IvPrUfCQjZ1F35igg+nR9bSxmjsYEskQ==}
+    dev: false
+
+  /@fontsource/roboto-mono/4.5.8:
+    resolution: {integrity: sha512-AW44UkbQD0w1CT5mzDbsvhGZ6/bb0YmZzoELj6Sx8vcVEzcbYGUdt2Dtl5zqlOuYMWQFY1mniwWyVv+Bm/lVxw==}
     dev: false
 
   /@istanbuljs/load-nyc-config/1.1.0:
