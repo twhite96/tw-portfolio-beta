@@ -9,7 +9,9 @@ export default class Document extends NextDocument {
   render() {
     return (
       <Html lang='en'>
-        <Head></Head>
+        <Head>
+          <a rel="me" href="https://hachyderm.io/@tiff"></a>
+        </Head>
         <body>
         {/* 👇 Here's the script */}
         <ColorModeScript initialColorMode={customTheme.config.initialColorMode} />
