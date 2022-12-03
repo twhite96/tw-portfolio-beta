@@ -9,8 +9,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
-
+        <meta content="width=device-width, initial-scale=1" name="viewport" /><a rel="me" href="https://hachyderm.io/@tiff"></a>
           {/* eslint-disable-next-line react/no-unescaped-entities */}
           <title>Tiffany's Personal Site</title>
       </Head>
