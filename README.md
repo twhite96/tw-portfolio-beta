@@ -22,17 +22,17 @@
 
 
 
-[Live Demo](https://yet-another-nextjs-theme.vercel.app/)
+[Live Demo](https://portfoliobeta.vercel.app)
 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftwhite96%2Fyet-another-nextjs-theme)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftwhite96%2Ftw-portfolio-beta)
 
 
 How to use:
 
-1. 🌀 Clone the repo at `https://github.com/twhite96/yet-another-nextjs-theme`
+1. 🌀 Clone the repo at `https://portfoliobeta.vercel.app` 
 2. 🏃 Run: `pnpm add` to install dependencies.
-   3 🎊 Have fun with it.
+3. 🎊 Have fun with it.
 
 ---
 
