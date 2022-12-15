@@ -66,14 +66,10 @@ function Home() {
 
         <Divider />
 
-        <Spacer />
-
         <Heading as="h2" mb={4}>
           Projects
         </Heading>
         <Text>Some of my best stuff 💪🏽</Text>
-
-        <Spacer />
 
         <SimpleGrid
           spacing="9px"
