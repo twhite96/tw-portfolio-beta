@@ -14,17 +14,11 @@
   <a href="https://github.com/twhite96/v3">v3</a>,&nbsp;
   <a href="https://github.com/twhite96/v4">v4</a>
 </p>
-  <img src="https://yet-another-nextjs-theme.vercel.app/?app=yet-another-nextjs-theme&style=for-the-badge" />
 
-
-https://yet-another-nextjs-theme.vercel.app/?app=yet-another-nextjs-theme&style=for-the-badge
-
-
-<img src="https://therealsujitk-vercel-badge.vercel.app/?app=therealsujitk-vercel-badge&style=for-the-badge&logo=false" />
-
+<p align="center">
+  <a href="https://wakatime.com/badge/user/35a1c519-3817-40c1-9c97-00e108889072/project/53937c15-6087-4401-8992-325cf80eac5b"><img src="https://wakatime.com/badge/user/35a1c519-3817-40c1-9c97-00e108889072/project/53937c15-6087-4401-8992-325cf80eac5b.svg?style=for-the-badge" alt="wakatime"></a>
+</p>
  
-
-[![wakatime](https://wakatime.com/badge/user/35a1c519-3817-40c1-9c97-00e108889072/project/53937c15-6087-4401-8992-325cf80eac5b.svg?style=for-the-badge)](https://wakatime.com/badge/user/35a1c519-3817-40c1-9c97-00e108889072/project/53937c15-6087-4401-8992-325cf80eac5b)
 
 
 [Live Demo](https://yet-another-nextjs-theme.vercel.app/)
