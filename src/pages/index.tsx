@@ -27,7 +27,7 @@ import {
 // import { FEED } from '../lib/rss'
 
 import { MoonIcon, SunIcon, Icon } from '@chakra-ui/icons'
-import { SiGithub, SiVercel, SiSafari } from 'react-icons/si'
+import { SiGithub, SiVercel, SiSafari, SiNetlify } from 'react-icons/si'
 
 function Home() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -64,36 +64,41 @@ function Home() {
           This is my personal site.
         </Text>
 
-        {/*<Container centerContent>*/}
-        {/*  */}
-        {/*</Container>*/}
-
         <Divider />
+
+        <Spacer />
+
         <Heading as="h2" mb={4}>
           Projects
         </Heading>
         <Text>Some of my best stuff 💪🏽</Text>
 
-        <Divider />
+        <Spacer />
 
         <SimpleGrid
-          // minChildWidth="90%"
           spacing="9px"
           templateColumns="repeat(auto-fill, minmax(300px, 3fr))"
         >
-          <Card boxShadow="xl">
-            <CardHeader>
-              <Heading> Ruby Static Site Generator</Heading>
-            </CardHeader>
+          <Card maxW="xl" boxShadow="xl">
+            <Heading mt={9} ml={5}>
+              Ruby Static Site Generator
+            </Heading>
             <CardBody>
-              <Image
-                src="https://res.cloudinary.com/twhiteblog/image/upload/v1667626387/ruby-2_gn6h07.jpg"
-                borderRadius="sm"
-              />
-              <Text>A static site generator built with Ruby and Mustache.</Text>
+              <Link
+                href="https://github.com/twhite96/static-gen-ruby"
+                isExternal
+              >
+                <Image
+                  src="https://res.cloudinary.com/twhiteblog/image/upload/v1667626387/ruby-2_gn6h07.jpg"
+                  borderRadius="sm"
+                />
+              </Link>
+              <Text fontSize="2xl">
+                A static site generator built with Ruby and Mustache.
+              </Text>
             </CardBody>
             <CardFooter>
-              <Button>
+              <Button mr={2}>
                 <Link
                   href="https://github.com/twhite96/static-gen-ruby"
                   isExternal
@@ -101,12 +106,17 @@ function Home() {
                   <Icon as={SiGithub} mt={1} />
                 </Link>
               </Button>
+              <Button>
+                <Link href="https://rubygen.tiff.run/" isExternal>
+                  <Icon as={SiSafari} mt={1} />
+                </Link>
+              </Button>
             </CardFooter>
           </Card>
-          <Card boxShadow="xl">
-            <CardHeader>
-              <Heading>Bumped Landing Page v1</Heading>
-            </CardHeader>
+          <Card maxW="xl" boxShadow="xl">
+            <Heading mt={9} ml={5}>
+              Bumped Landing Page v1
+            </Heading>
             <CardBody>
               <Link
                 href="https://web.archive.org/web/20200413140020/https://bumped.com/"
@@ -117,7 +127,7 @@ function Home() {
                   borderRadius="sm"
                 />
               </Link>
-              <Text>The first iteration of Bumped.com</Text>
+              <Text fontSize="2xl">The first iteration of Bumped.com</Text>
             </CardBody>
             <CardFooter>
               <Button>
@@ -130,10 +140,10 @@ function Home() {
               </Button>
             </CardFooter>
           </Card>
-          <Card boxShadow="xl">
-            <CardHeader mt={9}>
-              <Heading>Pokedex App</Heading>
-            </CardHeader>
+          <Card maxW="xl" boxShadow="xl">
+            <Heading mt={9} ml={5}>
+              Pokedex App
+            </Heading>
             <CardBody>
               <Link href="https://sparkbox-pokedex.vercel.app/" isExternal>
                 <Image
@@ -141,23 +151,56 @@ function Home() {
                   borderRadius="sm"
                 />
               </Link>
-              <Text>
+              <Text fontSize="2xl">
                 The Pokedex App built for a take home project for a company I'd
                 interviewed with.
               </Text>
             </CardBody>
             <CardFooter>
               <Button mr={2}>
-                <Link href="https://sparkbox-pokedex.vercel.app/" isExternal>
-                  <Icon as={SiVercel} mt={1} />
-                </Link>
-              </Button>
-              <Button>
                 <Link
                   href="https://github.com/twhite96/sparkbox-pokedex"
                   isExternal
                 >
                   <Icon as={SiGithub} mt={1} />
+                </Link>
+              </Button>
+              <Button>
+                <Link href="https://sparkbox-pokedex.vercel.app/" isExternal>
+                  <Icon as={SiVercel} mt={1} />
+                </Link>
+              </Button>
+            </CardFooter>
+          </Card>
+          <Card maxW="xl" boxShadow="xl">
+            <Heading mt={9} ml={5}>
+              Gatsby Portfolio, v5
+            </Heading>
+            <CardBody>
+              <Link href="https://www.tiffanyrwhite.com" isExternal>
+                <Image
+                  src="https://res.cloudinary.com/twhiteblog/image/upload/v1667543018/old-portfolio_tyg5vx.png"
+                  borderRadius="sm"
+                />
+              </Link>
+              <Text fontSize="2xl">
+                This is the fifth version of my portfolio I wrote with
+                Gatsby.js, taking inspiration from Brittany Chiang's popular
+                portfolio site.
+              </Text>
+            </CardBody>
+            <CardFooter>
+              <Button mr={2}>
+                <Link
+                  href="https://github.com/twhite96/portfolio-v5"
+                  isExternal
+                >
+                  <Icon as={SiGithub} mt={1} />
+                </Link>
+              </Button>
+              <Button>
+                <Link href="https://www.tiffanyrwhite.com" isExternal>
+                  <Icon as={SiNetlify} mt={1} />
                 </Link>
               </Button>
             </CardFooter>
