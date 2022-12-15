@@ -16,9 +16,12 @@
 </p>
 
 <p align="center">
-<img alt="GitHub deployments" src="https://img.shields.io/github/deployments/twhite96/yet-another-nextjs-theme/production?label=vercel&logo=vercel&style=for-the-badge">
+  <img src="https://twhite96-yet-another-nextjs-theme.vercel.app/?app=twhite96-yet-another-nextjs-theme&style=for-the-badge" />
 </p>
 
+
+
+ 
 
 [![wakatime](https://wakatime.com/badge/user/35a1c519-3817-40c1-9c97-00e108889072/project/53937c15-6087-4401-8992-325cf80eac5b.svg?style=for-the-badge)](https://wakatime.com/badge/user/35a1c519-3817-40c1-9c97-00e108889072/project/53937c15-6087-4401-8992-325cf80eac5b)
 
