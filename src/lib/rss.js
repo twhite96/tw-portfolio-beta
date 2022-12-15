@@ -1,15 +1,15 @@
-import Parser from "rss-parser";
+import Parser from 'rss-parser'
 
 export const FEED = [
   {
-    slug: "twhite-blog",
-    title: "Tiffany R. White Blog",
-    url: "https://tiffanywhite.dev/rss",
+    slug: 'twhite-blog',
+    title: 'Tiffany R. White Blog',
+    url: 'https://www.tiffanywhite.dev/rss/',
   },
-];
+]
 
 export async function getFeed(feedUrl) {
-  let parser = new Parser();
+  let parser = new Parser()
 
-  return await parser.parseURL(feedUrl);
+  return await parser.parseURL(feedUrl)
 }
