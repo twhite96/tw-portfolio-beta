@@ -1,40 +1,58 @@
-# Dark
+<div align="center">
+  <a href="https://github.com/twhite96/portfolio-v5">
+    <img src="https://res.cloudinary.com/twhiteblog/image/upload/c_scale,q_100,w_300/v1633498150/twblog_zhjidz.png" alt="Tiffany White portfolio" />
+  </a>
+</div>
+<h1 align="center">www.tiffanyrwhite.com - v6</h1>
+<p align="center">
+  The sixth iteration of <a href="https://www.tiffanyrwhite.com">tiffanyrwhite.com</a> built with <a href="https://www.gatsbyjs.org/">Next.js</a> and hosted with <a href="https://www.vercel.com/">Vercel</a>
+</p>
+<p align="center">
+  Previous versions:
+  <a href="https://github.com/twhite96/v1">v1</a>,&nbsp;
+  <a href="https://github.com/twhite96/v2">v2</a>,&nbsp;
+  <a href="https://github.com/twhite96/v3">v3</a>,&nbsp;
+  <a href="https://github.com/twhite96/v4">v4</a>
+</p>
 
-> An opinionated, dark-themed Next.js & Chakra UI GitHub repository template.
+<p align="center">
+<img alt="GitHub deployments" src="https://img.shields.io/github/deployments/twhite96/yet-another-nextjs-theme/production?label=vercel&logo=vercel&style=for-the-badge">
+</p>
 
-Hit the ground running with one `yarn install`.
 
-## Getting Started
+[![wakatime](https://wakatime.com/badge/user/35a1c519-3817-40c1-9c97-00e108889072/project/53937c15-6087-4401-8992-325cf80eac5b.svg?style=for-the-badge)](https://wakatime.com/badge/user/35a1c519-3817-40c1-9c97-00e108889072/project/53937c15-6087-4401-8992-325cf80eac5b)
 
-1. Generate a repository with this template by clicking on the "Use this template" button on the top right or on [github.com/kahlil/dark/generate](https://github.com/kahlil/dark/generate)
-2. Clone your new repository
-3. Run yarn install
-4. Hit the ground running with Next.js, TypeScript & Chakra UI with the dark theme as the default
 
-## Documentation
+[Live Demo](https://yet-another-nextjs-theme.vercel.app/)
 
-The tech stack of this template includes
 
-- [Next.js](https://nextjs.org)
-- [Chakra UI](https://chakra-ui.com)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Prettier](https://prettier.io/)
-- [ESLint](https://eslint.org/)
-- [pretty-quick](https://github.com/azz/pretty-quick)
-- [Husky](https://typicode.github.io/husky)
-- [Jest](https://jestjs.io/)
-- [Testing Library](https://testing-library.com/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftwhite96%2Fyet-another-nextjs-theme)
 
-Minimally configured, mostly using defaults provided by the community or the creators.
 
-Please refer to the respective docs (linked above) in order to learn about these technologies.
+How to use:
 
-## Notes
+1. 🌀 Clone the repo at `https://github.com/twhite96/yet-another-nextjs-theme`
+2. 🏃 Run: `pnpm add` to install dependencies.
+   3 🎊 Have fun with it.
 
-I recommend you use [Volta](https://volta.sh) to manage your Node and Yarn versions.
+---
 
-If you use VS Code as an editor I recommend you you allow format on save through Prettier and turn off the built-in formatter.
+## Motivation for this app
 
-## License
 
-MIT
+## 🥞 Stack
+
+
+## 👊🏽 Wins
+
+
+##  😐 Difficulties
+
+
+## 🚶‍♂️Next steps
+
+
+## ⚡ Refactor ⚡
+
+
+###  📘 Further reading
