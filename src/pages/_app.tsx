@@ -10,8 +10,8 @@ function App({ Component, pageProps }: AppProps) {
       <Head>
         <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
         <meta content="width=device-width, initial-scale=1" name="viewport" />
-          {/* eslint-disable-next-line react/no-unescaped-entities */}
-          <title>Tiffany's Personal Site</title>
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
+        <title>Tiffany's Personal Site</title>
       </Head>
       <ColorModeScript initialColorMode={customTheme.config.initialColorMode} />
       <ChakraProvider theme={customTheme}>
