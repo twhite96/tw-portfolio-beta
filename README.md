@@ -19,13 +19,18 @@
   <a href="https://wakatime.com/badge/user/35a1c519-3817-40c1-9c97-00e108889072/project/53937c15-6087-4401-8992-325cf80eac5b"><img src="https://wakatime.com/badge/user/35a1c519-3817-40c1-9c97-00e108889072/project/53937c15-6087-4401-8992-325cf80eac5b.svg?style=for-the-badge" alt="wakatime"></a>
 </p>
  
+<p align="center">
+ <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/twhite96/tw-portfolio-beta/production?label=vercel&logo=vercel&style=for-the-badge">
+</p>
 
+<p align="center">
+  <a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftwhite96%2Ftw-portfolio-beta"><img src="https://vercel.com/button" alt="Deploy with Vercel"></a>
+</p>
 
 
 [Live Demo](https://portfoliobeta.vercel.app)
 
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftwhite96%2Ftw-portfolio-beta)
 
 
 How to use:
