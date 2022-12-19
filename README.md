@@ -20,7 +20,7 @@
 </p>
  
 <p align="center">
- <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/twhite96/tw-portfolio-beta/production?label=vercel&logo=vercel&style=for-the-badge">
+ <img alt="GitHub deployments" src="https://img.shields.io/github/deployments/twhite96/tw-portfolio-beta/production?label=build&logo=vercel&style=for-the-badge">
 </p>
 
 <p align="center">
