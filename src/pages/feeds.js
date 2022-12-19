@@ -1,5 +1,5 @@
-import { FEED } from "src/lib/rss";
-import Link from "next/link";
+import { FEED } from 'src/lib/rss'
+import Link from 'next/link'
 // import {
 //   Container,
 //   Heading,
@@ -20,6 +20,9 @@ import Link from "next/link";
 //   Button
 // } from '@chakra-ui/react'
 
+// Use Chakra UI Container, Header, Text, and Card components for this feed component.
+// I also need to create custom feed properties for grabbing the featured image from each
+// post
 export default function Feed() {
   return (
     <div className="px-6 py-12 max-w-xl mx-auto">
@@ -34,5 +37,5 @@ export default function Feed() {
         ))}
       </div>
     </div>
-  );
+  )
 }

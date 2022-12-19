@@ -111,33 +111,6 @@ function Home() {
           </Card>
           <Card maxW="xl" boxShadow="xl">
             <Heading mt={9} ml={5}>
-              Bumped Landing Page v1
-            </Heading>
-            <CardBody>
-              <Link
-                href="https://web.archive.org/web/20200413140020/https://bumped.com/"
-                isExternal
-              >
-                <Image
-                  src="https://res.cloudinary.com/twhiteblog/image/upload/v1667543019/bumped-v1_shoafo.png"
-                  borderRadius="sm"
-                />
-              </Link>
-              <Text fontSize="2xl">The first iteration of Bumped.com</Text>
-            </CardBody>
-            <CardFooter>
-              <Button>
-                <Link
-                  href="https://web.archive.org/web/20200413140020/https://bumped.com/"
-                  isExternal
-                >
-                  <Icon as={SiSafari} mt={1} />
-                </Link>
-              </Button>
-            </CardFooter>
-          </Card>
-          <Card maxW="xl" boxShadow="xl">
-            <Heading mt={9} ml={5}>
               Pokedex App
             </Heading>
             <CardBody>
@@ -197,6 +170,33 @@ function Home() {
               <Button>
                 <Link href="https://www.tiffanyrwhite.com" isExternal>
                   <Icon as={SiNetlify} mt={1} />
+                </Link>
+              </Button>
+            </CardFooter>
+          </Card>
+          <Card maxW="xl" boxShadow="xl">
+            <Heading mt={9} ml={5}>
+              Bumped Landing Page v1
+            </Heading>
+            <CardBody>
+              <Link
+                href="https://web.archive.org/web/20200413140020/https://bumped.com/"
+                isExternal
+              >
+                <Image
+                  src="https://res.cloudinary.com/twhiteblog/image/upload/v1667543019/bumped-v1_shoafo.png"
+                  borderRadius="sm"
+                />
+              </Link>
+              <Text fontSize="2xl">The first iteration of Bumped.com</Text>
+            </CardBody>
+            <CardFooter>
+              <Button>
+                <Link
+                  href="https://web.archive.org/web/20200413140020/https://bumped.com/"
+                  isExternal
+                >
+                  <Icon as={SiSafari} mt={1} />
                 </Link>
               </Button>
             </CardFooter>
