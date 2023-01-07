@@ -12,7 +12,7 @@
   <a href="https://github.com/twhite96/v1">v1</a>,&nbsp;
   <a href="https://github.com/twhite96/v2">v2</a>,&nbsp;
   <a href="https://github.com/twhite96/v3">v3</a>,&nbsp;
-  <a href="https://github.com/twhite96/v4">v4</a>, &nbsp;
+  <a href="https://github.com/twhite96/v4">v4</a>,&nbsp;
   <a href="https://github.com/twhite96/portfolio-v5">v5</a>
 </p>
 
@@ -29,13 +29,15 @@
 </p>
 
 
-[Live Demo](https://tiffanyrwhite.com)
+[Live Demo](https://www.tiffanyrwhite.com)
 
 
 
 
 How to use:
 
-1. 🌀 Clone the repo at `https://github.com/twhite96/yet-another-nextjs-theme.git` 
-2. 🏃 Run: `pnpm add` to install dependencies.
+1. 🌀 Clone the repo at `https://portfoliobeta.vercel.app` 
+2. 🏃 Run: `pnpm install` to install dependencies.
 3. 🎊 Have fun with it.
+
+---
