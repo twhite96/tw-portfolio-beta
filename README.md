@@ -12,7 +12,7 @@
   <a href="https://github.com/twhite96/v1">v1</a>,&nbsp;
   <a href="https://github.com/twhite96/v2">v2</a>,&nbsp;
   <a href="https://github.com/twhite96/v3">v3</a>,&nbsp;
-  <a href="https://github.com/twhite96/v4">v4</a>
+  <a href="https://github.com/twhite96/v4">v4</a>, &nbsp;
   <a href="https://github.com/twhite96/portfolio-v5">v5</a>
 </p>
 
