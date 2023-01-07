@@ -13,6 +13,7 @@
   <a href="https://github.com/twhite96/v2">v2</a>,&nbsp;
   <a href="https://github.com/twhite96/v3">v3</a>,&nbsp;
   <a href="https://github.com/twhite96/v4">v4</a>
+  <a href="https://github.com/twhite96/portfolio-v5">v5</a>
 </p>
 
 <p align="center">
@@ -28,35 +29,13 @@
 </p>
 
 
-[Live Demo](https://portfoliobeta.vercel.app)
+[Live Demo](https://tiffanyrwhite.com)
 
 
 
 
 How to use:
 
-1. 🌀 Clone the repo at `https://portfoliobeta.vercel.app` 
+1. 🌀 Clone the repo at `https://github.com/twhite96/yet-another-nextjs-theme.git` 
 2. 🏃 Run: `pnpm add` to install dependencies.
 3. 🎊 Have fun with it.
-
----
-
-## Motivation for this app
-
-
-## 🥞 Stack
-
-
-## 👊🏽 Wins
-
-
-##  😐 Difficulties
-
-
-## 🚶‍♂️Next steps
-
-
-## ⚡ Refactor ⚡
-
-
-###  📘 Further reading
