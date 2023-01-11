@@ -5,6 +5,7 @@ export const FEED = [
     slug: 'twhite-blog',
     title: 'Tiffany R. White Blog',
     url: 'https://www.tiffanywhite.dev/rss/',
+    description: '',
   },
 ]
 

@@ -2,29 +2,23 @@ import {
   Container,
   Heading,
   VStack,
-  HStack,
-  Stack,
   Card,
-  CardHeader,
   CardBody,
   CardFooter,
   SimpleGrid,
   Button,
   Text,
-  OrderedList,
-  ListItem,
   Link,
   Image,
   Avatar,
   Spacer,
   Flex,
-  Badge,
   Box,
   useColorMode,
   useColorModeValue,
   Divider,
 } from '@chakra-ui/react'
-// import { FEED } from '../lib/rss'
+import { FEED } from '../lib/rss.js'
 
 import { MoonIcon, SunIcon, Icon } from '@chakra-ui/icons'
 import { SiGithub, SiVercel, SiSafari, SiNetlify } from 'react-icons/si'
@@ -205,10 +199,84 @@ function Home() {
               </Button>
             </CardFooter>
           </Card>
+          <Card maxW="xl" boxShadow="xl">
+            <Heading mt={9} ml={5}>
+              Bumped Landing Page v1
+            </Heading>
+            <CardBody>
+              <Link
+                href="https://web.archive.org/web/20200413140020/https://bumped.com/"
+                isExternal
+              >
+                <Image
+                  src="https://res.cloudinary.com/twhiteblog/image/upload/v1667543019/bumped-v1_shoafo.png"
+                  borderRadius="sm"
+                />
+              </Link>
+              <Text fontSize="2xl">The first iteration of Bumped.com</Text>
+            </CardBody>
+            <CardFooter>
+              <Button>
+                <Link
+                  href="https://web.archive.org/web/20200413140020/https://bumped.com/"
+                  isExternal
+                >
+                  <Icon as={SiSafari} mt={1} />
+                </Link>
+              </Button>
+            </CardFooter>
+          </Card>
+          <Card maxW="xl" boxShadow="xl">
+            <Heading mt={9} ml={5}>
+              Linktree Alternative
+            </Heading>
+            <CardBody>
+              <Link href="https://links.tiffanywhite.dev" isExternal>
+                <Image
+                  src="https://res.cloudinary.com/twhiteblog/image/upload/v1591128562/new-office_nib11t.jpg"
+                  borderRadius="sm"
+                />
+              </Link>
+              <Text fontSize="2xl">
+                A Link in bio Linktree clone with a simple Astro template.
+              </Text>
+            </CardBody>
+            <CardFooter>
+              <Button mr={2}>
+                <Link href="https://github.com/twhite96/tw-links" isExternal>
+                  <Icon as={SiGithub} mt={1} />
+                </Link>
+              </Button>
+              <Button>
+                <Link href="https://links.tiffanywhite.dev" isExternal>
+                  <Icon as={SiVercel} mt={1} />
+                </Link>
+              </Button>
+            </CardFooter>
+          </Card>
         </SimpleGrid>
 
         <Divider />
         <Container>
+          <Container>
+            <Heading>Latest Posts</Heading>
+            <SimpleGrid
+              spacing="9px"
+              templateColumns="repeat(auto-fill, minmax(300px, 3fr))"
+            >
+              <Container maxW="xl" boxShadow="xl">
+                {FEED.map((feed) => (
+                  <Card key={feed.title}>
+                    <Link key={feed.slug} href={`/feeds/${feed.slug}`}>
+                      <a>{feed.title}</a>
+                    </Link>
+                    <Text>{feed.description}</Text>
+                  </Card>
+                ))}
+              </Container>
+            </SimpleGrid>
+          </Container>
+
           <Flex pb={2}>
             <Avatar src="https://res.cloudinary.com/twhiteblog/image/upload/v1623806306/authorimage_o7mj3e.webp" />
             <Box ml="3">
@@ -219,7 +287,11 @@ function Home() {
 
           <Text py={2}>
             See the code for this site{' '}
-            <Link href="#" isExternal textDecoration="underline">
+            <Link
+              href="https://github.com/twhite96/tw-portfolio-beta"
+              isExternal
+              textDecoration="underline"
+            >
               on GitHub
             </Link>
             .

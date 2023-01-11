@@ -1,5 +1,6 @@
-import { FEED, getFeed } from "src/lib/rss";
-import { format } from "date-fns";
+import { FEED, getFeed } from 'src/lib/rss'
+import { format } from 'date-fns'
+import Card from '@chakra-ui/react'
 
 export default function Feed({ feed, items }) {
   return (
@@ -15,24 +16,24 @@ export default function Feed({ feed, items }) {
             rel="noopener noreferrer"
           >
             <div className="font-bold">{item.title}</div>
-            <div>{format(new Date(item.isoDate), "PPP")}</div>
+            <div>{format(new Date(item.isoDate), 'PPP')}</div>
           </a>
         ))}
       </div>
     </div>
-  );
+  )
 }
 
 export async function getStaticPaths() {
   return {
     paths: FEED.map((feed) => ({ params: { slug: feed.slug } })),
     fallback: false,
-  };
+  }
 }
 
 export async function getStaticProps({ params }) {
-  const feed = FEED.find((feed) => feed.slug === params.slug);
-  const detailedFeed = await getFeed(feed.url);
+  const feed = FEED.find((feed) => feed.slug === params.slug)
+  const detailedFeed = await getFeed(feed.url)
 
   return {
     props: {
@@ -40,5 +41,5 @@ export async function getStaticProps({ params }) {
       items: detailedFeed.items,
     },
     revalidate: 1,
-  };
+  }
 }
