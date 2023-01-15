@@ -26,6 +26,8 @@ export default function Feeds() {
         spacing="9px"
         templateColumns="repeat(auto-fill, minmax(300px, 3fr))"
       >
+        {/* Need to move the feed iteration above the Card component */}
+          
         <Card maxW="xl" boxShadow="xl">
           {FEED.map((feed) => (
             <Link key={feed.slug} href={`/feeds/${feed.slug}`}>
