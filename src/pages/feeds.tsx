@@ -1,4 +1,4 @@
-import { FEED } from 'src/lib/rss'
+import { FEED } from '../lib/rss'
 import Link from 'next/link'
 import {
   Container,
@@ -12,8 +12,8 @@ import {
   Image,
   Button,
 } from '@chakra-ui/react'
-import { Icon } from '@chakra-ui/icons'
-import { SiGithub, SiSafari } from 'react-icons/si'
+// import { Icon } from '@chakra-ui/icons'
+// import { SiGithub, SiSafari } from 'react-icons/si'
 
 // Use Chakra UI Container, Header, Text, and Card components for this feed component.
 // I also need to create custom feed properties for grabbing the featured image from each
@@ -27,19 +27,14 @@ export default function Feeds() {
         templateColumns="repeat(auto-fill, minmax(300px, 3fr))"
       >
         {/* Need to move the feed iteration above the Card component */}
-          
-        <Card maxW="xl" boxShadow="xl">
-          {FEED.map((feed) => (
+        {FEED.map((feed, i) => (
+          <Card maxW="xl" boxShadow="xl">
             <Link key={feed.slug} href={`/feeds/${feed.slug}`}>
-              <a className="p-4 border border-gray-200 hover:border-gray-500 rounded-lg">
-                {feed.title}
-              </a>
+              {feed.title}
             </Link>
-          ))}
-          {FEED.map((feed, i) => (
             <CardBody key={i}>{feed.description}</CardBody>
-          ))}
-        </Card>
+          </Card>
+        ))}
       </SimpleGrid>
     </Container>
   )

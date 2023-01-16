@@ -18,10 +18,16 @@ import {
   useColorModeValue,
   Divider,
 } from '@chakra-ui/react'
-import { FEED } from '../lib/rss.js'
+// import { FEED } from '../lib/rss.js'
 
 import { MoonIcon, SunIcon, Icon } from '@chakra-ui/icons'
 import { SiGithub, SiVercel, SiSafari, SiNetlify } from 'react-icons/si'
+
+import dynamic from 'next/dynamic'
+
+const DynamicFeeds = dynamic(() => import('./feeds'), {
+  ssr: false,
+})
 
 function Home() {
   const { colorMode, toggleColorMode } = useColorMode()
@@ -171,7 +177,7 @@ function Home() {
               Gatsby Portfolio, v5
             </Heading>
             <CardBody>
-              <Link href="https://www.tiffanyrwhite.com" isExternal>
+              <Link href="https://twhite-portfolio.netlify.app" isExternal>
                 <Image
                   src="https://res.cloudinary.com/twhiteblog/image/upload/v1667543018/old-portfolio_tyg5vx.png"
                   borderRadius="sm"
@@ -260,21 +266,7 @@ function Home() {
         <Container>
           <Container>
             <Heading>Latest Posts</Heading>
-            <SimpleGrid
-              spacing="9px"
-              templateColumns="repeat(auto-fill, minmax(300px, 3fr))"
-            >
-              <Container maxW="xl" boxShadow="xl">
-                {FEED.map((feed) => (
-                  <Card key={feed.title}>
-                    <Link key={feed.slug} href={`/feeds/${feed.slug}`}>
-                      <a>{feed.title}</a>
-                    </Link>
-                    <Text>{feed.description}</Text>
-                  </Card>
-                ))}
-              </Container>
-            </SimpleGrid>
+            <DynamicFeeds />
           </Container>
 
           <Flex pb={2}>
