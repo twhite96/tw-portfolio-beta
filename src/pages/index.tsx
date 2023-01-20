@@ -232,8 +232,8 @@ function Home() {
         </SimpleGrid>
 
         <Divider />
-        {/* <Container>
-          <Container>
+        <Container>
+          {/* <Container>
             <Heading>Latest Posts</Heading>
             <DynamicFeeds />
           </Container> */}
