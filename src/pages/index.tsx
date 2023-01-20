@@ -232,11 +232,11 @@ function Home() {
         </SimpleGrid>
 
         <Divider />
-        <Container>
+        {/* <Container>
           <Container>
             <Heading>Latest Posts</Heading>
             <DynamicFeeds />
-          </Container>
+          </Container> */}
 
           <Flex pb={2}>
             <Avatar src="https://res.cloudinary.com/twhiteblog/image/upload/v1623806306/authorimage_o7mj3e.webp" />
