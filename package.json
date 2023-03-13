@@ -23,7 +23,7 @@
     "@emotion/styled": "^11.10.5",
     "@fontsource/montserrat": "^4.5.13",
     "@fontsource/roboto-mono": "^4.5.8",
-    "@testing-library/dom": "^8.19.1",
+    "@testing-library/dom": "^9.0.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/node": "^18.11.18",
