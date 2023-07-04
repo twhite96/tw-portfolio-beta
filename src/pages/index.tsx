@@ -34,6 +34,9 @@ function Home() {
   const bg = useColorModeValue('white.500', '#191b23')
   const color = useColorModeValue('gray.800', 'white')
   return (
+    <>
+    <p style={{display: 'none'}}>proven6060f6</p>
+    
     <Container bg="white.800" color={color}>
       <VStack my={24} spacing={12}>
         <Flex minWidth="max-content" alignItems="center" gap="4">
@@ -260,6 +263,7 @@ function Home() {
         </Container>
       </VStack>
     </Container>
+    </>
   )
 }
 
