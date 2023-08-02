@@ -131,7 +131,7 @@ function Home() {
               </Button>
               <Button>
                 <Link href="https://twhite-portfolio.netlify.app" isExternal>
-                  <Icon as={SiNetlify} mt={1} />
+                  <Icon as={SiSafari} mt={1} />
                 </Link>
               </Button>
             </CardFooter>
