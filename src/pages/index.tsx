@@ -78,68 +78,35 @@ function Home() {
           spacing="9px"
           templateColumns="repeat(auto-fill, minmax(300px, 3fr))"
         >
+
           <Card maxW="xl" boxShadow="xl">
             <Heading mt={9} ml={5}>
-              Ruby Static Site Generator
+              Calaxy, Inc Landing Page
             </Heading>
             <CardBody>
-              <Link
-                href="https://github.com/twhite96/static-gen-ruby"
-                isExternal
-              >
+              <Link href="https://calaxy.com" isExternal>
                 <Image
-                  src="https://res.cloudinary.com/twhiteblog/image/upload/v1667626387/ruby-2_gn6h07.jpg"
+                  src="https://res.cloudinary.com/twhiteblog/image/upload/v1667543020/calaxy-webflow_ixujbx.png"
                   borderRadius="sm"
                 />
               </Link>
               <Text fontSize="2xl">
-                A static site generator built with Ruby and Mustache.
+                I created this landing page for Calaxy, Inc, a startup I contracted for from
+                2021-2022. I used Webflow to create the landing page using custom designs from our CDO using Figma. We built custom styles and interactivity using CSS and JavaScript.
               </Text>
             </CardBody>
             <CardFooter>
               <Button mr={2}>
                 <Link
-                  href="https://github.com/twhite96/static-gen-ruby"
+                  href="https://github.com/twhite96/portfolio-v5"
                   isExternal
                 >
                   <Icon as={SiGithub} mt={1} />
                 </Link>
               </Button>
               <Button>
-                <Link href="https://rubygen.tiff.run/" isExternal>
-                  <Icon as={SiSafari} mt={1} />
-                </Link>
-              </Button>
-            </CardFooter>
-          </Card>
-          <Card maxW="xl" boxShadow="xl">
-            <Heading mt={9} ml={5}>
-              Pokedex App
-            </Heading>
-            <CardBody>
-              <Link href="https://sparkbox-pokedex.vercel.app/" isExternal>
-                <Image
-                  src="https://res.cloudinary.com/twhiteblog/image/upload/v1671046606/pokedex_kvsgzg.png"
-                  borderRadius="sm"
-                />
-              </Link>
-              <Text fontSize="2xl">
-                The Pokedex App built for a take home project for a company I'd
-                interviewed with.
-              </Text>
-            </CardBody>
-            <CardFooter>
-              <Button mr={2}>
-                <Link
-                  href="https://github.com/twhite96/sparkbox-pokedex"
-                  isExternal
-                >
-                  <Icon as={SiGithub} mt={1} />
-                </Link>
-              </Button>
-              <Button>
-                <Link href="https://sparkbox-pokedex.vercel.app/" isExternal>
-                  <Icon as={SiVercel} mt={1} />
+                <Link href="https://www.tiffanyrwhite.com" isExternal>
+                  <Icon as={SiNetlify} mt={1} />
                 </Link>
               </Button>
             </CardFooter>
