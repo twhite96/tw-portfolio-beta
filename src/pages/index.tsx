@@ -96,16 +96,8 @@ function Home() {
               </Text>
             </CardBody>
             <CardFooter>
-              <Button mr={2}>
-                <Link
-                  href="https://github.com/twhite96/portfolio-v5"
-                  isExternal
-                >
-                  <Icon as={SiGithub} mt={1} />
-                </Link>
-              </Button>
               <Button>
-                <Link href="https://www.tiffanyrwhite.com" isExternal>
+                <Link href="https://www.calaxy.com" isExternal>
                   <Icon as={SiNetlify} mt={1} />
                 </Link>
               </Button>
