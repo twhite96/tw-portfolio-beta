@@ -98,7 +98,7 @@ function Home() {
             <CardFooter>
               <Button>
                 <Link href="https://www.calaxy.com" isExternal>
-                  <Icon as={SiNetlify} mt={1} />
+                  <Icon as={SiSafari} mt={1} />
                 </Link>
               </Button>
             </CardFooter>
@@ -130,7 +130,7 @@ function Home() {
                 </Link>
               </Button>
               <Button>
-                <Link href="https://www.tiffanyrwhite.com" isExternal>
+                <Link href="https://twhite-portfolio.netlify.app" isExternal>
                   <Icon as={SiNetlify} mt={1} />
                 </Link>
               </Button>
