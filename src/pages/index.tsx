@@ -81,10 +81,10 @@ function Home() {
 
           <Card maxW="xl" boxShadow="xl">
             <Heading mt={9} ml={5}>
-              Calaxy, Inc Landing Page
+              Calaxy, Inc Landing Page, v1
             </Heading>
             <CardBody>
-              <Link href="https://calaxy.com" isExternal>
+              <Link href="https://web.archive.org/web/20211119010436/https://www.calaxy.com/" isExternal>
                 <Image
                   src="https://res.cloudinary.com/twhiteblog/image/upload/v1667543020/calaxy-webflow_ixujbx.png"
                   borderRadius="sm"
@@ -97,7 +97,7 @@ function Home() {
             </CardBody>
             <CardFooter>
               <Button>
-                <Link href="https://www.calaxy.com" isExternal>
+                <Link href="https://web.archive.org/web/20211119010436/https://www.calaxy.com/" isExternal>
                   <Icon as={SiSafari} mt={1} />
                 </Link>
               </Button>
